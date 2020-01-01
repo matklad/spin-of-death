@@ -1,0 +1,10 @@
+[package]
+name = "spin-of-death"
+version = "0.1.0"
+authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+thread-priority = "0.1"
+getrandom = "=0.1.13"
+os-blocking-getrandom = { git = "https://github.com/matklad/getrandom", branch = "os-blocking", package = "getrandom", optional = true }
