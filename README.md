@@ -13,6 +13,10 @@ In `getrandom`'s case the critical section is global one time initialization of 
 
 The example uses Linux real time priority threads, so it should be run with `sudo`.
 
+See this blog post for details:
+
+https://matklad.github.io/2020/01/02/spinlocks-considered-harmful.html
+
 Here are the results with current `getrandom`:
 
 ```
